@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="3" name="API Demo Feature" skipped="0" tests="5" time="11.61" timestamp="2023-11-22 01:19:20"><testcase name="Looking up US locations by post code(fail test)"><failure message="1 expectation failed.&#10;JSON path 'country abbreviation' doesn't match.&#10;Expected: U111&#10;  Actual: US&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="3" name="API Demo Feature" skipped="0" tests="5" time="10.8" timestamp="2023-11-22 02:39:02"><testcase name="Looking up US locations by post code(fail test)"><failure message="1 expectation failed.&#10;JSON path 'country abbreviation' doesn't match.&#10;Expected: U111&#10;  Actual: US&#10;" type="java.lang.AssertionError">1 expectation failed.
 JSON path 'country abbreviation' doesn't match.
 Expected: U111
   Actual: US
@@ -20,14 +20,14 @@ serenity.rest.starter@1.0.0-SNAPSHOT/starter.postcodes.PostCodeStepDefinitions.l
 net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
 serenity.rest.starter@1.0.0-SNAPSHOT/starter.postcodes.PostCodeStepDefinitions.theResultingAbbrShouldBe(PostCodeStepDefinitions.java:33)&#13;
 ✽.the results should have a correct State abbr(classpath:features/postcodes/Demo.feature:6)&#13;
-</system-err></testcase><testcase name="Get available Anime"/><testcase name="Finding My Cat"><failure message="1 expectation failed.&#10;JSON path name doesn't match.&#10;Expected: doggie&#10;  Actual: dobby&#10;" type="java.lang.AssertionError">1 expectation failed.
+</system-err></testcase><testcase name="Get available Anime"/><testcase name="Finding My Cat"><failure message="1 expectation failed.&#10;JSON path name doesn't match.&#10;Expected: doggie&#10;  Actual: null&#10;" type="java.lang.AssertionError">1 expectation failed.
 JSON path name doesn't match.
 Expected: doggie
-  Actual: dobby
+  Actual: null
 </failure><system-err>1 expectation failed.
 JSON path name doesn't match.
 Expected: doggie
-  Actual: dobby
+  Actual: null
 &#13;
 io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
 io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;
@@ -40,14 +40,14 @@ io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.gro
 io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
 serenity.rest.starter@1.0.0-SNAPSHOT/starter.postcodes.MyStepdefsL.iGetKittyAsResult(MyStepdefsL.java:40)&#13;
 ✽.I get Kitty as result(classpath:features/postcodes/Demo.feature:16)&#13;
-</system-err></testcase><testcase name="Finding Available animals"><failure message="1 expectation failed.&#10;JSON path name doesn't match.&#10;Expected: doggie&#10;  Actual: dobby&#10;" type="java.lang.AssertionError">1 expectation failed.
+</system-err></testcase><testcase name="Finding Available animals"><failure message="1 expectation failed.&#10;JSON path name doesn't match.&#10;Expected: doggie&#10;  Actual: null&#10;" type="java.lang.AssertionError">1 expectation failed.
 JSON path name doesn't match.
 Expected: doggie
-  Actual: dobby
+  Actual: null
 </failure><system-err>1 expectation failed.
 JSON path name doesn't match.
 Expected: doggie
-  Actual: dobby
+  Actual: null
 &#13;
 io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
 io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;

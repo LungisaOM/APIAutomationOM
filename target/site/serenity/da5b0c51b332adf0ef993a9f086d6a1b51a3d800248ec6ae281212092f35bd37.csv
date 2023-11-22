@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"API Demo Feature","Looking up US locations by post code(fail test)","FAILURE","2023-11-22T13:19:20.7138684+02:00[Africa/Harare]","0.0","6.8"
-"API Demo Feature","Finding My Cat","FAILURE","2023-11-22T13:19:29.0224084+02:00[Africa/Harare]","0.0","2.37"
-"API Demo Feature","Finding Available animals","FAILURE","2023-11-22T13:19:31.401758+02:00[Africa/Harare]","0.0","0.91"
+"API Demo Feature","Looking up US locations by post code(fail test)","FAILURE","2023-11-22T14:39:02.6703381+02:00[Africa/Harare]","0.0","3.96"
+"API Demo Feature","Finding My Cat","FAILURE","2023-11-22T14:39:10.5081364+02:00[Africa/Harare]","0.0","2.17"
+"API Demo Feature","Finding Available animals","FAILURE","2023-11-22T14:39:12.6846108+02:00[Africa/Harare]","0.0","0.79"
