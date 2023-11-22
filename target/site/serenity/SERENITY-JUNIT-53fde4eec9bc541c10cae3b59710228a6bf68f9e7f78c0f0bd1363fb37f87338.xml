@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="3" name="API Demo Feature" skipped="0" tests="5" time="11.61" timestamp="2023-11-22 01:19:20"><testcase name="Looking up US locations by post code(fail test)"><failure message="1 expectation failed.&#10;JSON path 'country abbreviation' doesn't match.&#10;Expected: U111&#10;  Actual: US&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path 'country abbreviation' doesn't match.
+Expected: U111
+  Actual: US
+</failure><system-err>1 expectation failed.
+JSON path 'country abbreviation' doesn't match.
+Expected: U111
+  Actual: US
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+serenity.rest.starter@1.0.0-SNAPSHOT/starter.postcodes.PostCodeStepDefinitions.lambda$theResultingAbbrShouldBe$3(PostCodeStepDefinitions.java:33)&#13;
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
+serenity.rest.starter@1.0.0-SNAPSHOT/starter.postcodes.PostCodeStepDefinitions.theResultingAbbrShouldBe(PostCodeStepDefinitions.java:33)&#13;
+✽.the results should have a correct State abbr(classpath:features/postcodes/Demo.feature:6)&#13;
+</system-err></testcase><testcase name="Get available Anime"/><testcase name="Finding My Cat"><failure message="1 expectation failed.&#10;JSON path name doesn't match.&#10;Expected: doggie&#10;  Actual: dobby&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path name doesn't match.
+Expected: doggie
+  Actual: dobby
+</failure><system-err>1 expectation failed.
+JSON path name doesn't match.
+Expected: doggie
+  Actual: dobby
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+serenity.rest.starter@1.0.0-SNAPSHOT/starter.postcodes.MyStepdefsL.iGetKittyAsResult(MyStepdefsL.java:40)&#13;
+✽.I get Kitty as result(classpath:features/postcodes/Demo.feature:16)&#13;
+</system-err></testcase><testcase name="Finding Available animals"><failure message="1 expectation failed.&#10;JSON path name doesn't match.&#10;Expected: doggie&#10;  Actual: dobby&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path name doesn't match.
+Expected: doggie
+  Actual: dobby
+</failure><system-err>1 expectation failed.
+JSON path name doesn't match.
+Expected: doggie
+  Actual: dobby
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+serenity.rest.starter@1.0.0-SNAPSHOT/starter.postcodes.MyStepdefsL.iGetKittyAsResult(MyStepdefsL.java:40)&#13;
+✽.I get Kitty as result(classpath:features/postcodes/Demo.feature:22)&#13;
+</system-err></testcase><testcase name="Pet not found (Negative Test)"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+serenity.rest.starter@1.0.0-SNAPSHOT/starter.postcodes.MyStepdefsNegative.iDoAGetPetFromThePetStore(MyStepdefsNegative.java:16)&#13;
+✽.I do a GET pet from the pet store(classpath:features/postcodes/Demo.feature:25)&#13;
+</system-err></testcase></testsuite>

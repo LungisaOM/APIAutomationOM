@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: API Demo Feature
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 11.941 s <<< FAILURE! - in API Demo Feature
+API Demo Feature.Looking up US locations by post code(fail test)  Time elapsed: 6.985 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path 'country abbreviation' doesn't match.
+Expected: U111
+  Actual: US
+
+
+API Demo Feature.Finding My Cat  Time elapsed: 2.378 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path name doesn't match.
+Expected: doggie
+  Actual: dobby
+
+
+API Demo Feature.Finding Available animals  Time elapsed: 0.911 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path name doesn't match.
+Expected: doggie
+  Actual: dobby
+
+
+API Demo Feature.Pet not found (Negative Test)  Time elapsed: 0.071 s  <<< ERROR!
+java.lang.NullPointerException
+

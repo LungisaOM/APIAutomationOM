@@ -1,0 +1,10 @@
+starter\actions\NegativePetActions.class
+starter\postcodes\MyStepdefsL.class
+starter\SerenityTestClass\Pet.class
+starter\postcodes\MyStepdefsNegative.class
+starter\actions\PostCodeAPI.class
+starter\CucumberTestSuite.class
+starter\SerenityTestClass\FetchAnimal.class
+starter\postcodes\petStore.class
+starter\postcodes\LocationResponse.class
+starter\postcodes\PostCodeStepDefinitions.class
