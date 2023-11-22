@@ -30,7 +30,7 @@ public class PostCodeStepDefinitions {
     @And("the results should have a correct State abbr")
     public void theResultingAbbrShouldBe() {
 //         restAssuredThat(response -> response.body(LocationResponse.FIRST_PLACE_NAME, equalTo("New York City")));
-        restAssuredThat(response -> response.body(LocationResponse.COUNTRY_ABBR, equalTo("U111")));
+        restAssuredThat(response -> response.body(LocationResponse.COUNTRY_ABBR, equalTo("US")));
 
     }
 
