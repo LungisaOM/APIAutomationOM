@@ -21,21 +21,5 @@ jobs:
       - name: Run the Maven verify phase
         run: mvn --batch-mode --update-snapshots verify
 
-      - name: Send email
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          username: omtest231123@gmail.com
-          password: OldMutual
-          subject: Automation
-          to: Luuyhisa@gmail.com
-          cc: Lungisa.mkhasakhasa@gmail.com
-          from: Github cumpus expect
-          html_body: file://README.md
-          secure: true
-          ignore_cert: true
-          priority: low
-
 
 
