@@ -20,6 +20,9 @@ jobs:
           distribution: 'temurin'
       - name: Run the Maven verify phase
         run: mvn --batch-mode --update-snapshots verify
+        with:
+          name: code-coverage-report
+          path: code-coverage.html
 
 
 
